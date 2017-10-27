@@ -1,5 +1,4 @@
-# Title
-Amazon, the quest of the same products
+# Amazon, the quest of the same products
 
 # Abstract
 Ever looked at a specific product on Amazon? There is a ton of offers for the exact same item! Why did you choose to buy specially this one?
@@ -24,5 +23,5 @@ And then, we will answer our questions with the dataset of the amazon review and
 -Have our first results
 
 # Questions for TAa
-Is this project realisable and in the theme ìdata science for social goodî?
+Is this project realisable and in the theme ‚Äúdata science for social good‚Äù?
 Isn't it strange to have homeworks and project at the same time regarding the amount of work?
