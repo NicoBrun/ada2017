@@ -23,5 +23,5 @@ And then, we will answer our questions with the dataset of the amazon review and
 * Have our first results
 
 # Questions for TAa
-Is this project realisable and in the theme “data science for social good”?
-Isn't it strange to have homeworks and project at the same time regarding the amount of work?
+* Is this project realisable and in the theme “data science for social good”?
+* Isn't it strange to have homeworks and project at the same time regarding the amount of work?
