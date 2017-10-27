@@ -6,8 +6,8 @@ We want to know why an item is more popular than the other bids.
 Every sales are differents, some are more expensive, some are less. Some have better review, some are not available in your country.
 
 # Research questions
-On Amazon, why an item is more popular and is sold more than its duplicate?
-What are the parameters that define that an item is better than its equivalent?
+* On Amazon, why an item is more popular and is sold more than its duplicate?
+* What are the parameters that define that an item is better than its equivalent?
 
 # Dataset
 We want to use the Amazon dataset, provided in the course; both the review and the metadata dataset. (So at most 20 + 3.1 gb in Json)
@@ -16,11 +16,11 @@ The popularity of sale of an item will be computed thanks to the parameter sales
 And then, we will answer our questions with the dataset of the amazon review and the metadata previously cited.
 
 # A list of internal milestones up until project milestone 2
--Define the useful feature
--Clean the data
--Select the categories of product we want to analyse (Amazon has 24 categories of item)
--Think about how to presents the project in term of data visualisation
--Have our first results
+* Define the useful feature
+* Clean the data
+* Select the categories of product we want to analyse (Amazon has 24 categories of item)
+* Think about how to presents the project in term of data visualisation
+* Have our first results
 
 # Questions for TAa
 Is this project realisable and in the theme “data science for social good”?
