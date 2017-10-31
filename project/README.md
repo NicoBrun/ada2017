@@ -2,12 +2,7 @@
 
 # Abstract
 Web-based marketplaces turned gigantic. As a result, a customer looking for a specific item will get hundreds of results, ranging from comparable to identic items. Our goal is to find out more about these duplicate items : among similar items, why is one version more frequently purchased than the others ? Is the choice more related to the price, ranking, or overall mood of the reviews ? Do the priorities change depending on the category the customers are interested in?  
-We aim to answer these questions using the amazon products and reviews dataset
-
-
-Ever looked at a specific product on Amazon? There is a ton of offers for the exact same item! Why did you choose to buy specially this one?
-We want to know why an item is more popular than the other bids.
-Every sales are differents, some are more expensive, some are less. Some have better review, some are not available in your country.
+We aim to answer these questions using the amazon products and reviews dataset.
 
 
 # Research questions
