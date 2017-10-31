@@ -10,7 +10,7 @@ We aim to answer these questions using the amazon products and reviews dataset.
 * Can we find out peaks in interest in certain products (typically by measuring the number of review in a given time period) after certain important events? (e.g. natural disaster, worldwide sport contests, ...)
 * Can we show a variation in the online shopping habits of people by looking at the interest in categories of items over an extended time period? (10 years or more)
 * On Amazon, why an item is more popular and is sold more than its duplicate?
-* What are the parameters that define that an item is better than its equivalent
+* What are the parameters that define that an item is better than its equivalent?
 
 
 # Dataset
