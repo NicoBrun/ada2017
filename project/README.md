@@ -1,4 +1,4 @@
-# Amazon, the quest of the same products
+﻿# Amazon, the quest of the same products
 
 # Abstract
 Web-based marketplaces turned gigantic. As a result, a customer looking for a specific item will get hundreds of results, ranging from comparable to identic items. Our goal is to find out more about these duplicate items : among similar items, why is one version more frequently purchased than the others ? Is the choice more related to the price, ranking, or overall mood of the reviews ? Do the priorities change depending on the category the customers are interested in?  
@@ -24,10 +24,10 @@ The subtle part will be to find out which items are duplicates. For that we will
 
 # A list of internal milestones up until project milestone 2
 * Define the useful feature
-* Select the categories of product we want to analyse (Amazon has 24 categories of item)
+* Select the categories of product we want to analyze (Amazon has 24 categories of item)
 * Import data per category, add useful tracking informations, and merge together all selected categories
 * Clean the data
-* Think about how to presents the project in term of data visualisation
+* Think about how to present the project in term of data visualization
 * Have our first results
 
 
