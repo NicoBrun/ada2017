@@ -16,7 +16,7 @@ We aim to answer these questions using the amazon products and reviews dataset.
 # Dataset
 We want to use the Amazon datasets provided in the course, both the review and the metadata dataset. (So at most 20 + 3.1 gb in Json). 
 In practice, we will probably aggregate the various "per-category" datasets, in order to be able to keep track of the origin of each item and keep as much information as possible.
-Since we're very interested in the amount of review as a metric of interest, we will restrict our data to the 5-core dataset, as to have at least a few reviews per product.
+Since we're very interested in the amount of reviews as a metric of interest, we will restrict our data to the 5-core dataset, as to have at least a few reviews per product.
 We need to group all the Amazon items by duplicates and decide which are useful for our project. 
 The popularity of sale of an item will be computed primrily with its salesRank parameter. 
 The subtle part will be to find out which items are duplicates. For that we will use the title, price, also_viewed, also_bought, categories and brand as useful informations.
