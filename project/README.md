@@ -6,9 +6,9 @@ We aim to answer these questions using the amazon products and reviews dataset.
 
 
 # Research questions
-* What correlations can we establish between the popularity of a product on amazon (i.e. its salesRank) and various parameters such as it's price, the customer's ratings, the mood of the review,...
-* Can we find out peaks in interest in certain products (typically by measuring the number of review in a given time period) after certain important events (e.g. natural disaster, worldwide sport contests, ...)
-* Can we show a variation in the online shopping habits of people by looking at the interest in categories of items over an extended time period (10 years or more)
+* What correlations can we establish between the popularity of a product on amazon (i.e. its salesRank) and various parameters such as it's price, the customer's ratings, the mood of the review,...etc ?
+* Can we find out peaks in interest in certain products (typically by measuring the number of review in a given time period) after certain important events? (e.g. natural disaster, worldwide sport contests, ...)
+* Can we show a variation in the online shopping habits of people by looking at the interest in categories of items over an extended time period? (10 years or more)
 * On Amazon, why an item is more popular and is sold more than its duplicate?
 * What are the parameters that define that an item is better than its equivalent
 
