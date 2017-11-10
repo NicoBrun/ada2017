@@ -1,4 +1,9 @@
-﻿# Amazon, the quest of the same products
+# Amazon, the quest of the same products  
+
+# COMMENT
+
+The proposed research questions are mostly based on features that already exist in the dataset. Counting or summing is a very simplistic analysis and does not give very insightful results. Furthermore, there is a research question on discovering correlations with "certain important events" without mentioning in the Datasets section, where this information will derive from. The proposal needs to be re-written in order to describe preciselly the goals and the techniques that will be followed.
+
 
 # Abstract
 Web-based marketplaces turned gigantic. As a result, a customer looking for a specific item will get hundreds of results, ranging from comparable to identic items. Our goal is to find out more about these duplicate items : among similar items, why is one version more frequently purchased than the others ? Is the choice more related to the price, ranking, or overall mood of the reviews ? Do the priorities change depending on the category the customers are interested in?  
