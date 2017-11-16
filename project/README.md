@@ -1,36 +1,30 @@
-# Amazon, the quest of the same products  
+﻿# The Post Mortem Cult of Celebrities  
 
 # COMMENT
 
-The proposed research questions are mostly based on features that already exist in the dataset. Counting or summing is a very simplistic analysis and does not give very insightful results. Furthermore, there is a research question on discovering correlations with "certain important events" without mentioning in the Datasets section, where this information will derive from. The proposal needs to be re-written in order to describe preciselly the goals and the techniques that will be followed.
-
+Super idée à mon avis ! Vous pourriez même compléter en essayant d'également "clusteré" les morts similaires pour voir s'il en resort des groupes particuliers par exemple. Attention toutefois à ne pas perdre trop de temps à miner wikipedia, uniquement ce qui est nécessaire. En poussant d'avantage, vous pourriez même peut-être détecter la mort d'auteur/chanteur basée sur les signaux que vous analysez.
 
 # Abstract
-Web-based marketplaces turned gigantic. As a result, a customer looking for a specific item will get hundreds of results, ranging from comparable to identic items. Our goal is to find out more about these duplicate items : among similar items, why is one version more frequently purchased than the others ? Is the choice more related to the price, ranking, or overall mood of the reviews ? Do the priorities change depending on the category the customers are interested in?  
-We aim to answer these questions using the amazon products and reviews dataset.
-
+At each celebrity's death, there is ...
 
 # Research questions
-* What correlations can we establish between the popularity of a product on amazon (i.e. its salesRank) and various parameters such as it's price, the customer's ratings, the mood of the review,...etc ?
-* Can we find out peaks in interest in certain products (typically by measuring the number of review in a given time period) after certain important events? (e.g. natural disaster, worldwide sport contests, ...)
-* Can we show a variation in the online shopping habits of people by looking at the interest in categories of items over an extended time period? (10 years or more)
-* On Amazon, why an item is more popular and is sold more than its duplicate?
-* What are the parameters that define that an item is better than its equivalent?
+* When a author/artist died, What trend of popularity occurs on their related product on amazon? (For an author; it's book, for an actor; related movies,... etc)
+* What's this impact in function of the type of artwork the author/artist did? (musics/books/films/...)
 
 
 # Dataset
 We want to use the Amazon datasets provided in the course, both the review and the metadata dataset. (So at most 20 + 3.1 gb in Json). 
-In practice, we will probably aggregate the various "per-category" datasets, in order to be able to keep track of the origin of each item and keep as much information as possible.
+But we will use only specific categories related the creation by an author/artist. (musics/books/films/...)
 Since we're very interested in the amount of reviews as a metric of interest, we will restrict our data to the 5-core dataset, as to have at least a few reviews per product.
-We need to group all the Amazon items by duplicates and decide which are useful for our project. 
-The popularity of sale of an item will be computed primrily with its salesRank parameter. 
-The subtle part will be to find out which items are duplicates. For that we will use the title, price, also_viewed, also_bought, categories and brand as useful informations.
+The interest rate in function of time will be computed with the help of the review content and their dates. (text analysis)
+To correlate this interest rate, we will need artists'/authors' death and their corresponding work. For this we will use Wikipedia and scrap the useful data needed for our project.
+One hard part will be to match  the works of an artist/author to corresponding product on amazon. 
 
 
 # A list of internal milestones up until project milestone 2
 * Define the useful feature
-* Select the categories of product we want to analyze (Amazon has 24 categories of item)
-* Import data per category, add useful tracking informations, and merge together all selected categories
+* Select the categories of product in Amazon containing works of authors/artists (Amazon has 24 categories of item)
+* Scrap the death of artists/authors of the N last years, match it with all it's work, then match it with all corresponding amazon product.
 * Clean the data
 * Think about how to present the project in term of data visualization
 * Have our first results
@@ -38,7 +32,7 @@ The subtle part will be to find out which items are duplicates. For that we will
 
 # Questions for TAa
 * Is this project realisable under the topic “data science for social good”?
-* It's unclear wether salesRanks are computed "per category"  or over all categories. Specifically, we understood that it is an indicator for the amount of sales that we can compare among items to find out which were the most sold. Can we compare it across categories, or is this parameter comparable only within a product category
+* It's unclear wether salesRanks are computed "per category"  or over all categories.(in the Amazon metadata db) Specifically, we understood that it is an indicator for the amount of sales that we can compare among items to find out which were the most sold. Can we compare it across categories, or is this parameter comparable only within a product category
 * We concluded there's no better way to measure the number of sales than the 'salesRank' parameter. Is this correct ? 
 * Isn't it strange to have homeworks and project at the same time regarding the amount of work?
 
