@@ -5,7 +5,19 @@
 Super idée à mon avis ! Vous pourriez même compléter en essayant d'également "clusteré" les morts similaires pour voir s'il en resort des groupes particuliers par exemple. Attention toutefois à ne pas perdre trop de temps à miner wikipedia, uniquement ce qui est nécessaire. En poussant d'avantage, vous pourriez même peut-être détecter la mort d'auteur/chanteur basée sur les signaux que vous analysez.
 
 # Abstract
-At each celebrity's death, there is ...
+
+It is often said, ironically, that Van Gohgh never sold a painting in his lifetime while he is one of the most famous painters in history.
+Is this an isolated case? Is it possible that society has a greater interest in the works of deceased personalities rather than those of their contemporaries? And if so, is this interest more marked when the news is still fresh?
+The following project aims to analyze the effect of artists / authors’ death on sales of their own work. 
+It starts with the hypothesis that a real societal phenomenon exists, which we will call post-mortem worship, according to which people feel more interested in the works of artists / authors recently deceased.
+The second assumption, is that this phenomenon can be reduced to the artistic and literary community, which are those concerned with mass celebrity. The last assumption is that the current means of communication allow the whole society concerned, in this case American, to know the news few time after the event. Especially if it is about well-known people.
+
+By working on data from Amazon, the giant of online commerce, and Wikipedia, the most famous encyclopedia of the web, it is possible to test the post-mortem worship effect.
+Therefore, the first part of this project consisted of the extraction of the data of interest from Amazon and Wikipedia. This required to filter Amazon data to contain only the required cathegories, clean it and store it in a convenient format for future implementations.
+Otherwise, the list of authors deceased in the time interval corresponding to Amazon's data, was scrapped from Wikipedia and stored in a compact and easy-to-use format.  
+The second part of the research will be based on the extraction of quantifiable features (interest in the form of number of reviews, appraisal index of reviews, temporal dimensionnality...) in order to allow a mathematical analysis of the data.
+The last conclusions will be drawn based on mathematical results and hypothesis testing.
+
 
 # Research questions
 * When a author/artist died, What trend of popularity occurs on their related product on amazon? (For an author; it's book, for an actor; related movies,... etc)
