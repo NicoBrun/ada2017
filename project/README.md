@@ -40,12 +40,12 @@ To match the works of an artist/author to his corresponding product on amazon, w
 # A list of internal milestones up until project milestone 3
 
 * Filtering:
-    ** keep only the artists which allow an unbiased analysis, i.e with enough total reviews and comparable time availability of reviews before and after death
+* * keep only the artists which allow an unbiased analysis, i.e with enough total reviews and comparable time availability of reviews before and after death
 * Extracting features:
-    ** compute interest metrics using reviews frequency/ratings/.. before and after death
-    ** look for mentions showing interest for the artist, or interest for its recent death in the reviews text
-    ** compare the before/after results with statistical tests
-    ** make the analysis at a higher level: per-category results, global result
+* * compute interest metrics using reviews frequency/ratings/.. before and after death
+* * look for mentions showing interest for the artist, or interest for its recent death in the reviews text
+* * compare the before/after results with statistical tests
+* * make the analysis at a higher level: per-category results, global result
 * write the 4-pages PDF report
 
 
