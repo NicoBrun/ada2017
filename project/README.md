@@ -1,9 +1,5 @@
 ﻿# The Post Mortem Cult of Celebrities  
 
-# COMMENT
-
-Super idée à mon avis ! Vous pourriez même compléter en essayant d'également "clusteré" les morts similaires pour voir s'il en resort des groupes particuliers par exemple. Attention toutefois à ne pas perdre trop de temps à miner wikipedia, uniquement ce qui est nécessaire. En poussant d'avantage, vous pourriez même peut-être détecter la mort d'auteur/chanteur basée sur les signaux que vous analysez.
-
 # Abstract
 
 It is often said, ironically, that Van Gohgh never sold a painting in his lifetime while he is one of the most famous painters in history.
@@ -39,7 +35,6 @@ One hard part will be to match  the works of an artist/author to corresponding p
 * Scrap the death of artists/authors of the N last years, match it with all it's work, then match it with all corresponding amazon product.
 * Clean the data
 * Think about how to present the project in term of data visualization
-* Have our first results
 
 
 # Questions for TAa
