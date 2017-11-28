@@ -2,7 +2,7 @@
 
 # Abstract
 
-It is often said, ironically, that Van Gohgh never sold a painting in his lifetime while he is one of the most famous painters in history.
+It is often said, ironically, that Van Gogh never sold a painting in his lifetime while he is one of the most famous painters in history.
 Is this an isolated case? Is it possible that society has a greater interest in the works of deceased personalities rather than those of their contemporaries? And if so, is this interest more marked when the news is still fresh?
 The following project aims to analyze the effect of artists / authors’ death on sales of their own work. 
 It starts with the hypothesis that a real societal phenomenon exists, which we will call "post-mortem worship", according to which people feel more interested in the works of artists / authors after their recent decease.
@@ -26,21 +26,26 @@ But we will use only specific categories related the creation by an author/artis
 Since we're very interested in the amount of reviews as a metric of interest, we will restrict our data to the 5-core dataset, as to have at least a few reviews per product.
 The interest rate in function of time will be computed with the help of the review content and their dates. (text analysis)
 To correlate this interest rate, we will need artists'/authors' death and their corresponding work. For this we will use Wikipedia and scrap the useful data needed for our project.
-One hard part will be to match  the works of an artist/author to corresponding product on amazon. 
+
+To match the works of an artist/author to his corresponding product on amazon, we will extends the metadata dataset with the Amazon product API. This way is far easier than any scraping we could do. 
 
 
 # A list of internal milestones up until project milestone 2
-* Define the useful feature
-* Select the categories of product in Amazon containing works of authors/artists (Amazon has 24 categories of item)
-* Scrap the death of artists/authors of the N last years, match it with all it's work, then match it with all corresponding amazon product.
-* Clean the data
-* Think about how to present the project in term of data visualization
+* Define the useful features *finished 100%*
+* Select the categories of product in Amazon containing works of authors/artists (Amazon has 24 categories of item) *finished 100%*
+* Scrap the death of artists/authors of the N last years *finished 100%*
+* Match the dead artist with all corresponding amazon product. *finished 50% (code is 90% done but it needs **runtime**(3-4 days) to build the dataset locally)*
+* Clean the data *finished 70% (need the built dataset locally)*
 
+# A list of internal milestones up until project milestone 3
 
-# Questions for TAa
-* Is this project realisable under the topic “data science for social good”?
-* It's unclear wether salesRanks are computed "per category"  or over all categories.(in the Amazon metadata db) Specifically, we understood that it is an indicator for the amount of sales that we can compare among items to find out which were the most sold. Can we compare it across categories, or is this parameter comparable only within a product category
-* We concluded there's no better way to measure the number of sales than the 'salesRank' parameter. Is this correct ? 
-* Isn't it strange to have homeworks and project at the same time regarding the amount of work?
+* Filtering:
+* * keep only the artists which allow an unbiased analysis, i.e with enough total reviews and comparable time availability of reviews before and after death
+* Extracting features:
+* * compute interest metrics using reviews frequency/ratings/.. before and after death
+* * look for mentions showing interest for the artist, or interest for its recent death in the reviews text
+* * compare the before/after results with statistical tests
+* * make the analysis at a higher level: per-category results, global result
+* write the 4-pages PDF report
 
 
