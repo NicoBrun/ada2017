@@ -1,0 +1,4 @@
+DATA/*.csv filter=lfs diff=lfs merge=lfs -text
+DATA/*.npz filter=lfs diff=lfs merge=lfs -text
+DATA/*.json.gz filter=lfs diff=lfs merge=lfs -text
+DATA/*.txt filter=lfs diff=lfs merge=lfs -text
