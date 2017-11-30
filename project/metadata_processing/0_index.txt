@@ -1,0 +1,6 @@
+Amazon_Instant_Video	WIP (quentin)
+Books			skipped (too large)
+CDs_and_Vinyl		WIP (nico)
+Digital_Music		skipped (no 'artist field)
+Kindle_Store		
+Movies_and_TV		WIP (quentin)
