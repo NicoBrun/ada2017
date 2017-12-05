@@ -3,8 +3,8 @@ https://drive.google.com/drive/folders/1vj1OGieAKnnUR6sEUxHXGzMr294t2Ypw
 
 
 Amazon_Instant_Video	DONE
-Books			skipped (too large)
-CDs_and_Vinyl		WIP (nico)
-Digital_Music		skipped (no 'artist field)
-Kindle_Store		
-Movies_and_TV		WIP (quentin)
+Books			quentin
+CDs_and_Vinyl		nico
+Digital_Music		nico
+Kindle_Store		nico
+Movies_and_TV		quentin
