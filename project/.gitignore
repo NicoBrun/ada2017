@@ -1,1 +1,6 @@
 DATA/
+01 - Pandas and Data Wrangling/
+02 - Data from the Web/Data/
+03 - Interactive Viz/q2_data/
+04 - Applied ML/lalonde.csv
+*.ipynb_checkpoints
