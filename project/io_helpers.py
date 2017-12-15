@@ -25,3 +25,6 @@ def json_gz_to_dataframe(filepath):
             i += 1 
         return pd.DataFrame.from_dict(df, orient='index') 
     return getDF(filepath)
+    
+def gzip_to_dataframe(filepath) :
+    json_gz_to_dataframe(filepath)
