@@ -5,21 +5,32 @@
 import pandas as pd
 
 
-def std_actors_names(series) : 
-    return series.str.lower()
-    
-def std_actors_names_list(liste) : 
-    return std_actors_names(pd.Series(liste)).tolist()
-
-
-def cleanstr(string) : 
-    tmp = string.lower().split('(')[0].split(')')[0].split('|')[0].replace('\\', ' ')
+def cleanstr(string, version='v2') : 
+#    if type(string) != str : 
+#        print('WARNING : cleanstr received non-string : ', string)
+#        return string
+    tmp = string.lower().split('(')[0].split(')')[0].split('|')[0]\
+                        .replace('\\', ' ')
+    if version =='v2' :
+        tmp =	 tmp.replace("[", "").replace("]","").replace("'","")\
+                    .replace(".","").replace('"','')
     res = ''
     for w in tmp.split(' '): 
         if len(w)>0 :
             res = res+' '+w
     res = res[1:]
     return res
+    
+    
+def splitstr(string) : 
+    tmp = string.replace(' & ',',').replace(' , ',',').replace(':',',')\
+                 .replace(' / ',',').replace('/',',').replace(", ",",")
+    return tmp.split(',')
+    
+    
+    
+########################################################################
+## better not use it
 
 def clean_comas(list_):
     ''' fix for unclosed parenthesis screwing up regex
@@ -45,13 +56,8 @@ def df_rm_punctuation(df, columns=None) :
 
 def clean_serie(serie) : 
     _serie_rm_punctuation(serie)
-    
-def a() : 
-    print("a    ")
 
 
-########################################################################
-## Private helpers
 
 def _serie_rm_punctuation(series_):
     return series_.str.replace("[", "").str.replace("]","")\
