@@ -13,7 +13,13 @@ def std_actors_names_list(liste) :
 
 
 def cleanstr(string) : 
-    return string.lower().split('(')[0].split(')')[0].split('|')[0].replace('\\', ' ')
+    tmp = string.lower().split('(')[0].split(')')[0].split('|')[0].replace('\\', ' ')
+    res = ''
+    for w in tmp.split(' '): 
+        if len(w)>0 :
+            res = res+' '+w
+    res = res[1:]
+    return res
 
 def clean_comas(list_):
     ''' fix for unclosed parenthesis screwing up regex
