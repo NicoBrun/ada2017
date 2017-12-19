@@ -29,3 +29,11 @@ def json_gz_to_dataframe(filepath):
 # wrapper for compatibility    
 def gz_to_dataframe(filepath) :
     return json_gz_to_dataframe(filepath)
+    
+    
+def read_txt(path) :
+    #Returns the lines of a .txt file, with '\n' characters removed 
+    
+    file = open(path, "r")
+    tmplist = file.read().split("\n")# the last line is an empty line 
+    return tmplist[:len(tmplist)-1]    
