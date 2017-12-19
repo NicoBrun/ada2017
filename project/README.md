@@ -42,10 +42,6 @@ Lastly, in milestone 3, parts 3.2 and 3.3 were applied to several files (movies_
  - matching_video is part 3.2 for movies_and_TV and Amazon_Instant_Video
  - control-subject-matching is part 3.3, and ran on CDs_and_Vinyls, but can run identically on movies_and_TV and Amazon_Instant_Video by changing the file names
  
- 
-# About our report
-We still have compilation issues with latex. Figures are broken. If we can't fix them by the deadline, you will find a version of our report [with fixed figures](https://nicobrun.github.io/ADA/ADA-report-NicolasBruner-QuentinBouvet-SandraMarcadent.pdf) on our github page (plus it wasn't specified how we were supposed to hand it out). 
-
 
 # A list of internal milestones up until project milestone 2
 * Define the useful features *finished 100%*
