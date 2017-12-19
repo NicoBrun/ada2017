@@ -30,6 +30,19 @@ To correlate this interest rate, we will need artists'/authors' death and their 
 To match the works of an artist/author to his corresponding product on amazon, we will extends the metadata dataset with the Amazon product API. This way is far easier than any scraping we could do. 
 
 
+
+# About our notebook
+This notebook is split in part, which usually load a file at the beggining and save their results to a file at the end. This is because many parts take a very long time to run, and were done separately from one another. For this reason, we don't recommend you try to run the whole notebook, but you can run individual parts if you like.
+The notebook will need a set of data files to run. You can get it on our [google drive](https://drive.google.com/open?id=1e-NfklfQv_KrINQEgP_Hn1mDbrHMLXhL). download the DATA/ folder, and put it in the same directory as the notebook. If there's any trouble with the link, you can contact me at quentin.bouvet@epfl.ch.
+
+Furthermore, in milestone 2, you won't be able to run our code because of missing credentials. We apologize for that, but we didn't want to put private credentials on a public github repository.
+
+Lastly, in milestone 3, parts 3.2 and 3.3 were applied to several files (movies_and_TV and Amazon_Instant_Video, CDs_and_Vinyls), while the code was almost identical. For readability of the main projet notebook, we only showed these parts applied to one category. This is also the reason why the cells are not run in the main notebook, we actually did the processing in separate notebooks. They are available for you to read on the repo : 
+ - matching_music is part 3.2 for CDs_and_Vinyls
+ - matching_video is part 3.2 for movies_and_TV and Amazon_Instant_Video
+ - control-subject-matching is part 3.3, and ran on CDs_and_Vinyls, but can run identically on movies_and_TV and Amazon_Instant_Video by changing the file names
+
+
 # A list of internal milestones up until project milestone 2
 * Define the useful features *finished 100%*
 * Select the categories of product in Amazon containing works of authors/artists (Amazon has 24 categories of item) *finished 100%*
@@ -37,15 +50,25 @@ To match the works of an artist/author to his corresponding product on amazon, w
 * Match the dead artist with all corresponding amazon product. *finished 50% (code is 90% done but it needs **runtime**(3-4 days) to build the dataset locally)*
 * Clean the data *finished 70% (need the built dataset locally)*
 
-# A list of internal milestones up until project milestone 3
 
+# A list of internal milestones up until project milestone 3
 * Filtering:
-* * keep only the artists which allow an unbiased analysis, i.e with enough total reviews and comparable time availability of reviews before and after death
+* * keep only the artists which allow an unbiased analysis, i.e with enough total reviews and comparable time availability of reviews before and after death *100% done*
 * Extracting features:
-* * compute interest metrics using reviews frequency/ratings/.. before and after death
-* * look for mentions showing interest for the artist, or interest for its recent death in the reviews text
-* * compare the before/after results with statistical tests
-* * make the analysis at a higher level: per-category results, global result
-* write the 4-pages PDF report
+* * compute interest metrics using reviews frequency/ratings/.. before and after death *100% done*
+* * look for mentions showing interest for the artist, or interest for its recent death in the reviews text *50% done : we computed this metric, but didn't need it afterwards*
+* * compare the before/after results with statistical tests *Done* 
+* * make the analysis at a higher level: per-category results, global result *Done*
+* write the 4-pages PDF report *Done*
+
+ 
+# Tasks repartition
+* pre-implementation research : Nicolas, Quentin and Sandra
+* Scraping wikipedia to obtain the 'dead celebrities' dataset : Nicolas
+* extending the amazon metadata dataset using the amazon API : Quentin
+* combining 'dead celebrities', amazon metadata, amazon reviews : Quentin and Sandra
+* writing code to the main notebook : Nicolas and Quentin
+* statistical tests : Nicolas and Sandra
+* report : Sandra
 
 
