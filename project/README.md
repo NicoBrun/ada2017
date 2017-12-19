@@ -44,7 +44,7 @@ Lastly, in milestone 3, parts 3.2 and 3.3 were applied to several files (movies_
  
  
 # About our report
-We still have compilation issues with latex. Figures are broken. If we can't fix them by the deadline, you will find a version of our report [with fixed figures](https://nicobrun.github.io/ADA/ADA-report-NicolasBruner-QuentinBouvet-SandraMarcadent) on our github page (plus it wasn't specified how we were supposed to hand it out). 
+We still have compilation issues with latex. Figures are broken. If we can't fix them by the deadline, you will find a version of our report [with fixed figures](https://nicobrun.github.io/ADA/ADA-report-NicolasBruner-QuentinBouvet-SandraMarcadent.pdf) on our github page (plus it wasn't specified how we were supposed to hand it out). 
 
 
 # A list of internal milestones up until project milestone 2
